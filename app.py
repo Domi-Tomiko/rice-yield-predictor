@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("/content/rf_era5_mekong_pipeline.joblib")
+model = joblib.load("rf_era5_mekong_pipeline.joblib")
 
 st.title("🌾 Dự đoán năng suất lúa (Mekong Delta)")
 st.markdown("Nhập thông tin để dự đoán năng suất lúa:")
