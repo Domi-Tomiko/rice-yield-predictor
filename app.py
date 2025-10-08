@@ -3,6 +3,11 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 import joblib
+#test
+import joblib
+m = joblib.load("rf_era5_mekong_pipeline.joblib")
+print(type(m))
+print(m)
 
 model = joblib.load("rf_era5_mekong_pipeline.joblib")
 
